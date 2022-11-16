@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Home.css">
+    <title>Trabalhos</title>
+</head>
+
+<header>
+    <nav class="menu">
+
+        <a class="logo">
+            <h1>Protocolos de comunicação</h1>
+        </a>
+            
+
+        <strong><ul>
+            <li><a href="#HTTP" class = 'opcoes'>HTTP</a></li>
+            <li><a href="#HTTPS" class = 'opcoes'>HTTPS</a></li>
+            <li><a href="#FTP" class = 'opcoes'>FTP</a></li>
+            <li><a href="#DHCP" class = 'opcoes'>DHCP</a></li>
+            <li><a href="#DNS" class = 'opcoes'>DNS</a></li>
+            <li><a href="#SSH" class = 'opcoes'>SSH</a></li>
+            <li><a href="#TELNET" class = 'opcoes'>TELNET</a></li>
+        </ul></strong>
+
+    </nav>
+</header>
+
+<body>
+<section class="main">
+    <div id="HTTP">
+        <br>
+        <br>
+    </div>
+    <div id="">
+            <div class="titu"><h1>O que é HTTP?</h1></div>
+                        <br>
+                <div class="thumb">
+                </div>
+                
+                        <br>
+                <p class="linha">HTTP é um protocolo de transferência que possibilita que as pessoas que inserem a URL do seu site na Web possam ver os 
+                    conteúdos e dados que nele existem. A sigla vem do inglês Hypertext Transfer Protocol.
+                    Esse sistema é a base da comunicação que existe em toda a Internet em que os sites e conteúdos que tragam hiperlinks possam ser 
+                    encontrados mais facilmente pelo público por meio de um clique do mouse ou um toque na tela.
+                    Qualquer servidor que você escolha para hospedar o site da sua empresa tem um programa projetado para receber solicitações HTTP. 
+                    Portanto, o navegador que você usa é um cliente HTTP que envia solicitações constantemente ao seu servidor.
+                    Assim, quando um usuário acessa ou digita a URL do seu site, o navegador cria uma solicitação HTTP na web e a envia ao endereço de IP indicado pela URL. 
+                    Dessa forma, o servidor recebe essa solicitação e envia os arquivos associados que, nada mais são, do que os sites que acessamos na Internet.</p>
+
+                <h3>Origem do HTTP</h3>
+                
+                    <br>
+                <p class="linha">O termo HTTP foi cunhado por Ted Nelson em 1965 no Projeto Xanadu, que por sua vez foi inspirado numa visão dos anos 30 
+                    tida por Vannevar Bush referente ao sistema “memex” de recuperação e gestão de informação baseado em microfilmes descrito em seu ensaio de 1945 “As We May Think“.
+                    Tim Berners-Lee e sua equipe foram os responsáveis ​​por inventar o HTTP original, juntamente com o HTML e a tecnologia associada para um servidor da Web e um navegador da Web baseado em texto.
+                    Berners-Lee propôs pela primeira vez o projeto “WorldWideWeb” em 1989 – hoje conhecido como World Wide Web. 
+                    A primeira versão do protocolo tinha apenas um método, chamado GET, que solicitava uma página de um servidor e tinha como resposta a página HTML.
+                    A primeira versão documentada do HTTP foi liderada por Dave Raggett em 1995 e sua finalidade era expandir o protocolo com operações estendidas, negociação estendida, informação mais rica, 
+                    vinculada a um protocolo de segurança que se tornou mais eficiente adicionando métodos e campos de cabeçalho adicionais.            
+                    O HTTP foi rapidamente adotado pelos principais desenvolvedores de navegadores no início de 1996. O padrão HTTP / 1.1, como definido no RFC 2068, foi 
+                    oficialmente lançado em janeiro de 1997, enquanto melhorias e atualizações do padrão HTTP / 1.1 vieram em junho de 1999.            
+                    Por fim, em 2007, o HTTPbis Working Group foi formado, em parte, para revisar e esclarecer a especificação HTTP / 1.1. Em junho de 2014, o 
+                    WG divulgou uma especificação atualizada de seis partes da obsoleta RFC 2616.</p>
+                
+                <h3>Como Funciona o HTTP</h3>
+                
+                <p class="linha">HTTP é um protocolo baseado em texto sem conexão. Isso significa que as pessoas que acessam o site da sua empresa enviam 
+                    solicitações a servidores que as exibem na forma do seu site em formato de texto, imagens, e outros tipos de mídia. Depois que a solicitação é atendida por um servidor, a conexão entre o usuário e o servidor é desconectada.
+
+                    Uma nova conexão deve ser feita para cada solicitação, isto é, cada vez que alguém acessa o seu site. Em suma, quando alguém digita a URL do seu site em um navegador, é isto que acontece:</p>
+                    <div class="li">
+                        <li> a URL pertencer a um domínio próprio, o navegador primeiro se conecta a um servidor e recuperará o endereço IP correspondente ao servidor;</li>
+                        <li>o navegador se conecta ao servidor e envia uma solicitação HTTP para a página da web desejada (que, neste exemplo, é o seu site);</li>
+                        <li>o servidor recebe a solicitação e verifica a página desejada. Se a página existir, o servidor a mostrará. Se o servidor não conseguir encontrar a página solicitada, ele enviará uma mensagem de erro HTTP 404, ou seja, página não encontrada;</li>
+                        <li>o navegador, então, recebe a página de volta e a conexão é fechada;</li>
+                        <li>caso a página exista (e é isso que se espera), o navegador a analisa e procura outros elementos necessários para concluir a sua exibição, o que inclui seus textos, imagens e afins;</li>
+                        <li>para cada um desses elementos, o navegador faz conexões adicionais e solicitações HTTP para o servidor para cada elemento;</li>
+                        <li>quando o navegador terminar de carregar todos os elementos, a página será carregada na janela do navegador.</li>
+                    </div>
+    </div>                 
+
+
+    <div id="HTTPS">
+        <br>
+        <br>
+    </div>
+    <div id="">
+        <h1 class="titu">O que é HTTPS?</h1>
+                    <br>
+            <div class="thumb">
+            </div>
+            
+                    <br>
+            <p class="linha">HTTPS (sigla de Hypertext Transfer Protocol) é um protocolo de comunicação cuja finalidade é proteger a confiabilidade e a integridade entre os usuários e os sites que eles acessam.
+
+                Esses dados são transmitidos por meio de uma conexão criptografada do HTTP usando o TSL (Transport Layer Security) para que os visitantes tenham segurança e privacidade 
+                durante a navegação, garantindo que toda informação compartilhada naquele ambiente está devidamente protegida.
+                A sigla HTTP não é nenhuma novidade para quem é usuário da web há algum tempo. Ela está em todos os endereços de website em funcionamento, mas é justamente a adição do “S” ao final dela que traz o ponto principal no protocolo. 
+                Mais do que uma letra, essa simbologia significa que aquele site tem um protocolo de criptografia instalado, protegendo todos os dados gerados ali.                
+                Hoje, o HTTPS não é mais um recurso adicional, considerado como algo tão especial que só alguns sites têm. É praticamente uma obrigação para os sites garantirem que oferecem um ambiente totalmente criptografado e protegido, ou seja, 
+                é cada vez mais iminente a necessidade de ter uma página em HTTPS.</p>
+
+            <h3>Qual a diferença entre HTTP e HTTPS?</h3>
+            
+                <br>
+            <p class="linha">Dúvida muito comum, essa diferença não traz um conceito muito complexo. É importante definir, primeiramente, que a base de ambas é a mesma: um protocolo que permite a transferência de dados entre navegadores e servidores. 
+                É o HTTP que vai garantir essa comunicação, algo indispensável para que um usuário consiga acessar um site e navegar normalmente.
+                O principal diferencial acontece quando a letra “S” surge, criando o HTTPS. Nesse caso, o protocolo tradicional passa a receber a tecnologia de criptografia nessa transferência de dados, ou seja, as mensagens são codificadas para que somente emissor e 
+                receptor possam acessá-las. Isso evita que qualquer outra pessoa consiga “ler” o conteúdo, mesmo que, de alguma forma, ele seja interceptado.                
+                Para ter essa proteção de seu conteúdo, o HTTPS faz uso da criptografia TLS/SSL, uma das mais poderosas para websites. Essa camada de segurança pode ser facilmente identificada pelo usuário comum, e isso tem gerado impacto no engajamento de algumas empresas.               
+                Sites protegidos mostram um ícone de cadeado e a mensagem “seguro”, enquanto páginas com HTTP apenas podem mostrar a mensagem “não seguro”. Essa identificação acontece, principalmente, no Google Chrome.</p>
+            
+            <h3>Como o HTTPS funciona para deixar seu site mais seguro?</h3>
+            
+            <p class="linha">O HTTPS entra em ação no momento em que um usuário acessa uma página qualquer da web. Assim, o site em questão envia seus dados do certificado SSL para gerar essa conexão segura com o servidor. 
+                A partir daí, há a integração entre o SSL e o TLS, o que forma uma espécie de ponte segura, por onde toda informação vai transitar enquanto o usuário estiver no site.
+                Com isso feito, o HTTPS permitirá que qualquer atividade de compartilhamento de dados, ou de acesso ao site, seja feita sem riscos para as partes envolvidas. Isso inclui:               
+                login em sites;envio de dados pessoais;compras utilizando cartões de crédito;acessar conta bancária;utilizar serviços de email.               
+                É fundamental destacar que o HTTPS é um recurso indispensável para sites que exigem qualquer tipo de login ao usuário. 
+                A criptografia é o que permitirá a proteção da senha, mantendo sua confidencialidade e, consequentemente, protegendo o acesso à conta do usuário.               
+                Quais os benefícios do HTTPS?
+                
+                O HTTPS pode trazer muitos benefícios a um site, não devendo ser encarado apenas como uma obrigação. 
+                Há duas frentes importantes que justificam seu uso: otimização de desempenho de um site e engajamento como público. A seguir, entenda quais são as principais vantagens, como elas se relacionam com essas frentes e como podem ser importantes.
+                </div>
+
+
+
+
+
+
+                <div id="FTP">
+                    <br>
+                    <br>
+                </div>
+                <div id="">
+                    <h1 class="titu">O que é FTP?</h1>
+                                <br>
+                        <div class="thumb">
+                        </div>
+                        
+                                <br>
+                        <p class="linha">O FTP cria uma conexão entre o dispositivo do usuário e um servidor, geralmente o equipamento do serviço de hospedagem escolhido. Por meio dele é possível realizar a troca de dados entre os sistemas, quando esses estão devidamente conectados à internet.
+                            O sistema de transferência de arquivos surgiu na década de 1970, com o movimento de evolução da tecnologia computacional, as primeiras redes e conexões. Foi criado por Abhay Bhushan, que na época ainda era um estudante de Engenharia Elétrica no Massachussets Institute of Technology.            
+                            O intuito principal do projeto do FTP foi criar um protocolo de transferência mais seguro, que pudesse inibir qualquer tentativa de intrusão e roubo de informações.
+                            Com a evolução do conceito e da tecnologia propriamente dita, por meio da implementação de melhorias nos códigos e o aumento da capacidade de armazenamento dos equipamentos, o FTP se consolidou como um dos métodos mais eficientes de compartilhamento de dados na Internet.                            
+                            O fluxo de transferência de dados opera por meio de um programa que conecta dois agentes:
+
+                            <li class="li">cliente: o equipamento que solicita a conexão e o acesso aos dados hospedados;servidor: infraestrutura mais robusta, formada por um ou mais equipamentos usados para embasar operações e armazenar informações — recebe a 
+                                solicitação do cliente e concede autorização conforme a política de acesso adotada (geralmente, um login e uma senha).</li></p>
+
+                    <h3>Como instalar o FTP</h3>    
+                            
+                            <br>
+                        <p class="linha">O Acesso ao FTP pode ser feito por meio de uma aplicação específica que requer um login e uma senha para a autorização de uso. Além disso, demanda que o usuário especifique a porta de conexão correta.
+                            O aplicativo da web pode ser fornecido pelo serviço de hospedagem (encontrado na interface do usuário ou painel de controle) ou por meio de programas de terceiros, mais recomendados para operações de arquivo robustas. 
+                            Esses programas podem ser fornecidos por:
+                            FileZilla;Free FTP;ProFTPd;SmartFTP;Pure-FTPd;VsFTPd;Titan FTP Server;Cyberduck;Kasablanca;WinSCP.</p>
+                            
+                        
+            
+                        <h3>Como usar o FTP?</h3>
+                        
+                            <br>
+                        <p class="linha">Para copiar algum arquivo, basta localizá-lo em seu computador na parte esquerda do programa e jogá-lo para a parte direita em seu servidor.
+
+                            Entretanto, antes de usar o FTP, você deve saber como é feita a estruturação dos arquivos e diretórios no WordPress. 
+                            Isso é essencial para que o CMS funcione adequadamente, uma vez que a falta de um único arquivo pode derrubar o seu site e causar vários problemas sobre os quais falaremos a seguir.  
+                            Além disso, conhecer e saber como acessar os arquivos e diretórios no WordPress pode ajudar você a corrigir vários problemas que podem surgir. Por exemplo, um plugin instalado inadequadamente que 
+                            bloqueou o acesso ao dashboard de administração do site  a única forma de excluí-lo é por meio do acesso ao FTP.</p>
+                        
+                        <h3>Pastas</h3>
+                        
+                        <p class="linha">A estrutura do diretório é formado pelas seguintes pastas.</p>
+
+                            <li class="li-ti">wp-admin</li>
+                            
+                            <p class="linha">Essa pasta é responsável por gerenciar as ferramentas de administração dos sites WordPress, como o painel administrativo, a conexão com o banco de dados e as permissões de acesso do usuário.</p>
+                            
+                            <li class="li-ti">wp-content</li>
+                            
+                            <p class="linha">A pasta wp-content tem dois subdiretórios: plugins e temas, que armazenam dados relacionados a essas extensões no WordPress. A cada instalação, uma nova subpasta é criada com o nome do elemento adicionado.</p>
+                            <li class="li-ti">wp-includes</li>
+                            
+                            <p class="linha"> Dentro da pasta wp-includes estão todos os arquivos necessários para fazer um site funcionar: as funções do WordPress para controle de posts, páginas, widgets, entre outros recursos.</p>
+                            </div>
+
+
+
+                            <div id="DHCP">
+                                <br>
+                                <br>
+                            </div>
+                            <div id="">
+                                <h1 class="titu">O que é DHCP?</h1>
+                                            <br>
+                                    <div class="thumb">
+                                    </div>
+                                    
+                                            <br>
+                                    <p class="linha">O protocolo DHCP é um protocolo de cliente/servidor que fornece automaticamente um host ip (protocolo IP) com seu endereço IP e outras informações de configuração relacionadas, como a máscara de sub-rede e o gateway padrão. 
+                                        As RFCs 2131 e 2132 definem o DHCP como um padrão de IETF (Força-Tarefa de Engenharia da Internet) com base no protocolo BOOTP, um protocolo com o qual o DHCP compartilha muitos detalhes de implementação.
+                                        O DHCP permite que os hosts obtenham informações de configuração TCP/IP necessárias de um servidor DHCP.
+                                        Windows Server 2016 inclui o Servidor DHCP, que é uma função de servidor de rede opcional que você pode implantar em sua rede para concessão de endereços IP e outras informações para clientes DHCP. 
+                                        Todos Windows sistemas operacionais cliente baseados em Windows incluem o cliente DHCP como parte do TCP/IP e o cliente DHCP está habilitado por padrão.</p>
+            
+                                <h3>Por que usar o DHCP?</h3>    
+                                        
+                                        <br>
+                                    <p class="linha">Cada dispositivo em uma rede baseada em TCP/IP deve ter um endereço IP unicast exclusivo para acessar a rede e seus recursos. Sem o DHCP, os endereços IP para novos computadores ou computadores que são movidos de 
+                                        uma sub-rede para outra devem ser configurados manualmente; Os endereços IP para computadores removidos da rede devem ser recuperados manualmente.
+                                        Com o DHCP, todo esse processo é automatizado e gerenciado centralmente. O servidor DHCP mantém um pool de endereços IP e arrenda um endereço para qualquer cliente habilitado para DHCP quando ele é iniciado na rede. 
+                                        Como os endereços IP são dinâmicos (concessões) em vez de estáticos (atribuídos permanentemente), os endereços que não estão mais em uso são retornados automaticamente ao pool para realocação.
+                                        O administrador de rede estabelece servidores DHCP que mantêm informações de configuração TCP/IP e fornecem a configuração de endereço para clientes habilitados para DHCP na forma de uma oferta de concessão. 
+                                        O servidor DHCP armazena as informações de configuração em um banco de dados que inclui:
+        
+                                        <li class="li">Parâmetros de configuração TCP/IP válidos para todos os clientes na rede.</li>  
+                                        
+                                        <li class="li">Endereços IP válidos, mantidos em um pool para atribuição a clientes, bem como endereços excluídos.</li> 
+                                        
+                                        <li class="li">IP Reservado endereços associados a clientes DHCP específicos. Isso permite a atribuição consistente de um único endereço IP para um único cliente DHCP.</li> 
+                                        
+                                        <li class="li">A duração da concessão ou o período de tempo para o qual o endereço IP pode ser usado antes que uma renovação de concessão seja necessária.</li> 
+                                        
+                                        <li class="li-ti">Cliente habilitado para DHCP, após aceitar uma oferta de concessão, recebe:</li> 
+                                        
+                                        <li class="li">Um endereço IP válido para a sub-rede à qual ela está se conectando.</li> 
+                                        
+                                        Opções DHCP solicitadas, que são parâmetros adicionais que um servidor DHCP está configurado para atribuir aos clientes. Alguns exemplos de opções de DHCP são Roteador (gateway padrão), Servidores DNS e Nome de Domínio DNS.</p>
+                                        
+                                    
+                        
+                                    <h3>Como usar o FTP?</h3>
+                                    
+                                        <br>
+                                    <p class="linha">Para copiar algum arquivo, basta localizá-lo em seu computador na parte esquerda do programa e jogá-lo para a parte direita em seu servidor.
+            
+                                        Entretanto, antes de usar o FTP, você deve saber como é feita a estruturação dos arquivos e diretórios no WordPress. 
+                                        Isso é essencial para que o CMS funcione adequadamente, uma vez que a falta de um único arquivo pode derrubar o seu site e causar vários problemas sobre os quais falaremos a seguir.  
+                                        Além disso, conhecer e saber como acessar os arquivos e diretórios no WordPress pode ajudar você a corrigir vários problemas que podem surgir. Por exemplo, um plugin instalado inadequadamente que 
+                                        bloqueou o acesso ao dashboard de administração do site  a única forma de excluí-lo é por meio do acesso ao FTP.</p>
+                                    
+                                    <h3>Benefícios do DHCP</h3>
+                                        
+                                        <br>
+                                    <p class="linha">O DHCP oferece os seguintes benefícios.
+
+                                        Configuração de endereço IP confiável. O DHCP minimiza os erros de configuração causados pela configuração manual de endereço IP, como erros 
+                                        tipográficos ou conflitos de endereço causados pela atribuição de um endereço IP a mais de um computador ao mesmo tempo.
+                                        
+                                        Administração de rede reduzida. O DHCP inclui os seguintes recursos para reduzir a administração de rede:
+
+                                        <li class="li">Configuração TCP/IP centralizada e automatizada.</li>
+                                        <li class="li">A capacidade de definir configurações de TCP/IP de um local central.</li>
+                                        <li class="li">A capacidade de atribuir um intervalo completo de valores de configuração TCP/IP adicionais por meio de opções DHCP.</li>
+                                        <li class="li">O tratamento eficiente de alterações de endereço IP para clientes que devem ser atualizados com frequência, como aqueles para dispositivos portáteis que se movem para locais diferentes em uma rede sem fio. </li>
+                                        <li class="li">O encaminhamento de mensagens DHCP iniciais usando um agente de retransmissão DHCP, que elimina a necessidade de um servidor DHCP em cada sub-rede.</li>
+                                        </p>
+                                        </div>
+                 <div id="DNS">
+                                <br>
+                                <br>
+                            </div>
+                            <div id="">
+                                <h1 class="titu">O que é DNS?</h1>
+                                            <br>
+                                    <div class="thumb">
+                                    </div>
+                                    
+                                            <br>
+                                    <p class="linha">Os servidores DNS (Domain Name System, ou Sistema de Nomes de Domínios) são os responsáveis por localizar e traduzir para números IP (Internet Protocol) os endereços dos sites que digitamos nos navegadores — como www.canaltech.com.br, por exemplo.
+                                        Imagine ter que acessar seus sites preferidos através de números de IP, memorizando sequências de números para cada um deles? Isso seria algo completamente inviável, já que seria quase o mesmo que tentar memorizar todos os números de telefone da sua lista telefônica.
+                                        Para isso existem os registros de domínios e os servidores de DNS espalhados pelo mundo com a simples função de traduzir o que é digitado na barra de endereços. 
+                                        ssim, ele é capaz de entender que a URL específica só vai acessar um único endereço IP através dos bancos de dados.</p>
+            
+                                <h3>Como Funciona DNS?</h3>    
+                                        
+                                        <br>
+                                    <p class="linha">Os servidores DNS são capazes de converter as solicitações da URL em endereços de IP. Mais especificamente, eles controlam quais servidores os usuários podem acessar ao digitar um nome de domínio no browser.
+                                        Nesse momento, é importante entender que cada domínio possui um único endereço de IP e que também não há a possibilidade de sites diferentes possuírem a mesma URL. No entanto, diferentes URLs podem jogar os usuários para o mesmo site — desde que sejam do mesmo proprietário.
+                                        Embora todas essas requisições sejam feitas em frações de segundos, não são raras as vezes em que ocorrem gargalos e lentidão na conversão. 
+                                        A solução é criar uma espécie de Cache DNS, que, assim como a memória cache que estamos habituados, armazena consultas recentes para não ter que ficar repetindo o processo todas as vezes para acessar endereços já conhecidos.
+                                    </p>
+                                        
+                                    
+                        
+                                    <h3>Trocar o DNS pode ser uma boa opção</h3>
+                                    
+                                        <br>
+                                    <p class="linha">Por comodidade, os usuários acabam usando o sistema de DNS fornecido pelo provedor de internet, como Vivo, Claro, Tim ou outras. 
+                                        Mas seu uso não é obrigatório; se você quiser, pode trocar o seu para um que seja mais interessante e conveniente.
+                                        Não são raras as vezes em que os servidores fornecidos pelos provedores ficam congestionados ou oferecem algum problema de segurança.
+                                        Nesse caso, é necessário usar um bom serviço de DNS, porque isso pode impactar não só em uma navegação mais rápida, mas mais segura.                                      
+                                        Muitos modelos disponibilizam recursos de segurança, capazes de detectar cada site falso ou infectado com malware.
+                                        Alguns deles ainda oferecem um sistema de proteção parental e são capazes de travar, por exemplo, o acesso a sites de conteúdo adulto.</p>
+                            
+                                        </div> 
+                                        
+                                        <div id="SSH">
+                                            <br>
+                                            <br>
+                                        </div>
+                                        <div id="">
+                                            <h1 class="titu">O que é SSH?</h1>
+                                                        <br>
+                                                <div class="thumb">
+                                                </div>
+                                                
+                                                        <br>
+                                                <p class="linha">Para compreender melhor o que é esse protocolo, é importante saber que ele é a sigla para o termo Secure Socket Shell.
+                                                    Em tradução livre, significa “Concha de Segurança”, mas pode ser adaptado para o termo “Bloqueio de Segurança”. 
+
+                                                    Basicamente, o SSH consiste em um dos protocolos específicos de segurança de troca de arquivos entre cliente e servidor. 
+                                                    Por essa razão, quando o assunto é segurança em seu projeto na internet, esse protocolo ganha bastante relevância. 
+                                                    O processo de transferir dados é parte integrante das tarefas comuns na era digital e é essencial garantir que ele seja seguro. Por isso, esse tipo de protocolo é fundamental em um site, seja para empresas ou residências   
+                                                    O objetivo do SSH é permitir que desenvolvedores ou outros usuários realizem alterações em sites e servidores utilizando uma conexão simples e segura. Com isso, por meio de um dispositivo conectado à internet, 
+                                                    o desenvolvedor pode configurar e alterar arquivos de uma página da web.
+                                                    De uma forma geral, esse protocolo cria um método seguro e impede que esses arquivos e de seus códigos sejam expostos ou corrompidos por terceiros. 
+                                                    É aí que as criptografias são usadas, permitindo apenas que dois pontos acessem as informações, que são o servidor e o computador que enviou os dados para esse local remoto.</p>
+                        
+                                            <h3>Como surgiu e como funciona o protocolo SSH?</h3>    
+                                                    
+                                                    <br>
+                                                <p class="linha"> SSH é um protocolo surgido em 1995. Ele foi desenvolvido pelo programador Tatu Ylonen, com o objetivo de solucionar um incidente envolvendo hackers em uma universidade finlandesa.
+
+                                                    Hoje em dia, o protocolo SSH é utilizado para gerenciar mais da metade dos servidores web no mundo inteiro, com presença em quase todos os computadores que operam com Unix ou Linux. Essa ferramenta faz parte do cotidiano de vários profissionais que atuam na área da programação e no desenvolvimento de sistemas de segurança.
+                                                    O protocolo SSH pode ser utilizado para configurar, gerenciar, monitorar e operar firewalls, roteadores, switches e servidores de redes e ambientes digitais na web.                                                    
+                                                    Além disso, funciona por meio de uma chave pública que tem o objetivo de verificar e autenticar a legitimidade do servidor que o usuário pretende acessar (ou vice-versa). 
+                                                    O acesso então é realizado com o uso de um login e senha. Esse recurso consegue proteger a conexão.                                                    
+                                                    Uma das grandes vantagens é que, por meio do SSH, o usuário tem condições de estabelecer um sistema de proteção para o seu site sem comprometer o desempenho dele. 
+                                                    Com isso, o SSH torna a segurança do seu projeto mais eficiente, enquanto também atua na transferência de arquivos.  
+                                                    <br>
+                                                    <br>
+                                                    Já mencionamos que SSH é a sigla para o termo “Secure Shell”, mas por que esse protocolo recebe esse nome? “Shell” em português significa “concha”, “casca”, um elemento de proteção. 
+                                                    Imagine, por exemplo, uma tartaruga sem a sua carapaça. Pois então, no universo da programação e das linguagens de computador, o SSH também serve para proteger.
+                                                    Ele atua como um interceptador de comandos que realiza a ligação entre o usuário e o sistema operacional. 
+                                                    Essa concha, esse “Shell”, executa os comandos inseridos pelo usuário por meio do teclado, por exemplo. A partir daí ele passa a obter respostas.
+                                                </p>
+                                                    
+                                                
+                                    
+                                                <h3>Técnicas de criptografia do protocolo SSH</h3>
+                                                
+                                                    <br>
+                                                <p class="linha">Uma das principais características do protocolo SSH é contar com a tecnologia de criptografia. É por meio dela que o SSH transmite as informações entre o usuário e o servidor de hospedagem com o máximo de segurança. 
+                                                    Sendo assim, o protocolo SSH utiliza três tecnologias de criptografia, as quais veremos mais abaixo. 
+
+                                                    <li class="li-ti">Criptografia Simétrica</li>
+                                                    <li class="li">Também chamada de Chave Compartilhada ou Compartilhamento Secreto, esse tipo de criptografia usa uma chave secreta. Por meio dela, é possível transferir, codificar e decodificar uma mensagem do cliente e do servidor. 
+                                                        Chaves simétricas são usadas para codificar uma comunicação criptografada. Sendo assim, tanto o cliente quanto o servidor utilizam uma chave secreta por meio de um método que não pode ser mostrado a terceiros.                                                   
+                                                        Criar uma chave simétrica envolve o uso de uma chave de mudança de um algoritmo. O que altera nesse algoritmo é o fato que a chave nunca é transmitida entre o cliente e o servidor da hospedagem. 
+                                                        Desse modo, o compartilhamento dos dados e a manipulação dos mesmos ocorrem de modo independente, evitando que o algoritmo seja reconhecido por outros usuários.                                                        
+                                                        Além disso, nesse tipo de criptografia, cada sessão SSH possui a sua própria chave (token). Isso demanda uma autenticação antecipada do cliente, que deve usar uma senha de login para acessar uma máquina externa ou servidor. </li>
+
+                                                    
+                                                    <li class="li-ti">Criptografia Assimétrica</li>
+                                                    <li class="li">Ela utiliza duas chaves secretas separadas. Essas chaves servem tanto para codificar quanto para decodificar o processo de comunicação entre o cliente e o servidor.
+                                                         Ambas são conhecidas como chave-pública e chave-privada. Unidas, elas formam o par pública-privada.
+                                                        A chave-pública, conforme o próprio nome aponta, é aberta. Por meio de uma complicada relação entre os dois tipos de chaves, a mensagem é codificada pela chave-pública da máquina, que pode ser apenas decodificada pela chave-privada da mesma máquina.                                                        
+                                                        Isso quer dizer que a chave-pública não decodifica suas próprias mensagens e nem algo já criptografado pela chave-privada. Portanto, o usuário que pretende descriptografar dados públicos deve, primeiro, ter a chave-privada correspondente.</li>
+
+
+
+
+                                                    <li class="li-ti">Criptografia Hashing</li>
+                                                    <li class="li">Esse tipo de criptografia é também conhecida como One-Way Hashing, que em português pode ser chamada de “Criptografia de uma via só”. O processo da Criptografia Hashing abrange codificações de dados e mensagens, porém, nunca a decodificação dessas mesmas informações.
+                                                        Sendo assim, o Hashing utiliza um único valor para cada entrada e que não pode ser explorado. Isso dificulta ao máximo a decodificação realizada por terceiros. 
+                                                        Na criptografia Hashing, a autenticação das mensagens é realizada por meio de códigos baseados em Hash. Apenas os usuários interessados estão aptos a efetuar o acesso. Esse procedimento promove a segurança desse tipo de criptografia.</li>    
+
+
+                                                    </p>
+                                        
+                                                    </div>
+
+
+
+
+                 <div id="TELNET">
+                                <br>
+                                <br>
+                            </div>
+                            <div id="">
+                                <h1 class="titu">O que é TELNET?</h1>
+                                            <br>
+                                    <div class="thumb">
+                                    </div>
+                                    
+                                            <br>
+                                    <p class="linha">o comando Telnet permite a configuração do servidor de um computador remoto para a execução de comandos escritos.
+                                        Nesse caso, há a sensação de que se está trabalhando no computador remoto, pois é ele quem envia os dados.
+                                        Quando se fala que o comando Telnet é baseado em um protocolo, o que se quer dizer é que esse comando tem como princípios uma série de procedimentos e regras que são definidos para padronizar a comunicação.                                        
+                                        Por essa razão, ele é compatível e pode ser executado em diversas plataformas.
+                                        <br>
+                                        <br>                                        
+                                        Para garantir a segurança na utilização do comando Telnet, no momento da conexão com o computador remoto, são solicitados uma senha e um nome de usuário, para que somente pessoas autorizadas tenham acesso ao mesmo.                                       
+                                        Com esses dados, é possível tornar-se um usuário regular do computador remoto e ter acesso a todas as informações e programas instalados no mesmo.                                      
+                                        Para que essa conexão com o computador remoto seja estabelecida, instala-se um software no computador que vai solicitar o acesso remoto a um outro.                                       
+                                        O usuário deste software envia, então, a solicitação de acesso ao computador remoto e o servidor responde com a solicitação de login e senha.
+                                                                              
+                                        Para que seu login e senha sejam aceitos, é preciso que você tenha configurado anteriormente uma conta no computador remoto.
+                                        Assim, o cliente Telnet estabelece uma conexão com o host remoto e seu computador passa a atuar como um terminal virtual.                                        
+                                        Quando a sessão de trabalho remoto é iniciada tudo o que é digitado é enviado para o computador remoto. É como se o computador onde se está executando fisicamente a tarefa se tornasse invisível enquanto o programa Telnet é executado.
+                                        <br>
+                                        <br>                                        
+                                        Em resumo, o comando Telnet facilita a comunicação baseada em textos interativos bidirecionais, com a utilização da conexão de um terminal virtual.                                       
+                                        Entre as possibilidades de uso do comando Telnet está a otimização do suporte técnico.                                        
+                                        Mas é importante lembrar que as informações enviadas pelo comando Telnet são textos simples, sem criptografia.                                       
+                                        Então, se a intenção é compartilhar dados considerados mais sigilosos, há outras opções viáveis.</p>
+            
+                            
+                                        </div> 
+</div>              
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+           
+
+</section> 
+</body>
+
+<footer>
+    <p class="testinho">Etec Prof. Idio Zucchi © 2022</p>
+</footer> 
+</html>

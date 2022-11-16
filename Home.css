@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+
+    color: black;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(196, 193, 193);
+}
+
+header{
+    width: 100%;
+    height: 10vh; 
+    font-family: 'poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    min-width: 50px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    background: rgb(138, 43, 226);
+    border-radius: 10px;
+}
+
+
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.menu .opcoes{
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 220ms;
+}
+.menu .opcoes:hover{
+    color: #444;
+    background-color: rgb(231, 140, 225);
+}
+
+.menu img:hover{
+    background-color: transparent;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.menu h2:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.main{
+    margin: 40px 100px 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.linha{
+    margin-bottom: 60px;
+}
+
+
+footer{
+    font-family: 'poppins', sans-serif;
+    width: 100%;
+    bottom: 0;
+    background: black;
+    color: #fff;
+    padding: 10px 0 10px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.testinho{
+    text-align: center;
+}
+
+
+
+.li{
+
+    margin-bottom: 60px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.li-ti{
+
+
+    margin-bottom: 60px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline bla;
+
+
+
+}
+
+
+.titu{
+
+    
+    text-decoration: underline blueviolet;
+
+}
